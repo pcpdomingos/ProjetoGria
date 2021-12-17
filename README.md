@@ -1,7 +1,7 @@
 <h1>Projeto Gria</h1>
 
 
-<p>Projeto para teste de processo seletivo. 👨‍💻</p>
+<p>Projeto para teste de processo seletivo.</p>
 <h2>Sobre</h2>
 O projeto consiste em uma API REST que realiza as funções CRUD a partir de requisições HTTP.
 
