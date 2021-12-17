@@ -41,6 +41,78 @@ function ListaCargos() {
           <Grid container className='flex-container flex-item'>
             <Grid item xs={3}>
               <Box m={2} display='flex'>
+                <Card className='cardlista'>
+                  <CardContent>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.empresa}
+                    </Typography>
+                    <Typography variant="h5" component="div">
+                      {cargo.nome}
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      {cargo.nivel}
+                    </Typography>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.regiao}
+                    </Typography>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.periodo}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Box>
+            </Grid>
+
+            <Grid item xs={3}>
+              <Box m={2} display='flex'>
+                <Card className='cardlista'>
+                  <CardContent>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.empresa}
+                    </Typography>
+                    <Typography variant="h5" component="div">
+                      {cargo.nome}
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      {cargo.nivel}
+                    </Typography>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.regiao}
+                    </Typography>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.periodo}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Box>
+            </Grid>
+
+            <Grid item xs={3}>
+              <Box m={2} display='flex'>
+                <Card className='cardlista'> 
+                  <CardContent>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.empresa}
+                    </Typography>
+                    <Typography variant="h5" component="div">
+                    {cargo.nome}
+                    </Typography>
+                    <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                      {cargo.nivel}
+                    </Typography>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.regiao}
+                    </Typography>
+                    <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+                      {cargo.periodo}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Box>
+            </Grid>
+
+            <Grid item xs={3}>
+              <Box m={2} display='flex'>
                 <Card className='cardlista'> 
                   <CardContent>
                     <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>

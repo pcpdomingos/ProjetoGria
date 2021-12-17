@@ -13,7 +13,7 @@ function Home() {
 
             <Grid item container >
                 <Grid item xs={12} >
-                    <Box m={2} >
+                    <Box m={2}>
                         <Card className='card'>
                             <CardContent>
                                 <Grid item container xs={12} alignItems='center'>
