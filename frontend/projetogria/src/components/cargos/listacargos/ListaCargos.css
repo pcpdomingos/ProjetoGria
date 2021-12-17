@@ -1,0 +1,21 @@
+.text-decorator-none {
+    text-decoration: none;
+}
+
+.cardlista {
+    width: 500px;
+}
+
+.flexlist {
+    display: flex !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    width: 100px;
+    margin: 10px;
+}
